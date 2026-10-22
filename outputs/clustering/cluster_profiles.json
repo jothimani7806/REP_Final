@@ -1,0 +1,38 @@
+{
+  "0": {
+    "risk_assigned": "High",
+    "size": 1771,
+    "avg_claim": 32096.293788819876,
+    "median_claim": 34672.2,
+    "avg_age": 38.89150401836969,
+    "avg_bmi": 30.521985383678444,
+    "smoker_pct": 100.0,
+    "diabetes_pct": 82.04404291360812,
+    "exercise_pct": 19.536984754376057,
+    "avg_bp": 72.74034462269756
+  },
+  "1": {
+    "risk_assigned": "Medium",
+    "size": 5404,
+    "avg_claim": 8950.7103626943,
+    "median_claim": 8023.1,
+    "avg_age": 40.37348484848485,
+    "avg_bmi": 30.31673870333988,
+    "smoker_pct": 0.0,
+    "diabetes_pct": 100.0,
+    "exercise_pct": 25.018504811250924,
+    "avg_bp": 72.51436388508893
+  },
+  "2": {
+    "risk_assigned": "Low",
+    "size": 1723,
+    "avg_claim": 8130.382878699941,
+    "median_claim": 6500.2,
+    "avg_age": 37.7057761732852,
+    "avg_bmi": 29.598219961856326,
+    "smoker_pct": 0.3482298316889147,
+    "diabetes_pct": 0.0,
+    "exercise_pct": 20.313406848520025,
+    "avg_bp": 71.60777170613237
+  }
+}

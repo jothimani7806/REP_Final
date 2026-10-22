@@ -1,0 +1,58 @@
+{
+  "dataset_title": "REP Health Insurance Claims Dataset",
+  "raw_shape": [
+    15000,
+    13
+  ],
+  "cleaned_shape": [
+    13904,
+    13
+  ],
+  "duplicate_records_removed": 1096,
+  "invalid_bp_records_treated": 756,
+  "missing_values_before_cleaning": {
+    "age": 396,
+    "sex": 0,
+    "weight": 0,
+    "bmi": 956,
+    "hereditary_diseases": 0,
+    "no_of_dependents": 0,
+    "smoker": 0,
+    "city": 0,
+    "bloodpressure": 0,
+    "diabetes": 0,
+    "regular_ex": 0,
+    "job_title": 0,
+    "claim": 0
+  },
+  "target_variable": "claim",
+  "target_statistics": {
+    "mean": 13431.813744246261,
+    "median": 9567.0,
+    "std": 12142.099412767748,
+    "min": 1121.9,
+    "max": 63770.4,
+    "q25": 4883.9,
+    "q75": 16657.7,
+    "skew": 1.489221351406612
+  },
+  "categorical_columns": [
+    "sex",
+    "hereditary_diseases",
+    "city",
+    "job_title"
+  ],
+  "binary_columns": [
+    "smoker",
+    "diabetes",
+    "regular_ex"
+  ],
+  "numerical_columns": [
+    "age",
+    "weight",
+    "bmi",
+    "bloodpressure",
+    "no_of_dependents",
+    "claim"
+  ]
+}

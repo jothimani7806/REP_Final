@@ -1,0 +1,16 @@
+pandas
+numpy
+scikit-learn
+xgboost
+lightgbm
+catboost
+shap
+matplotlib
+joblib
+fastapi
+uvicorn
+pydantic
+google-genai
+python-dotenv
+pytest
+

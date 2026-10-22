@@ -1,0 +1,36 @@
+# Python Virtual Environment
+.venv/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*/.pytest_cache/
+
+# Environment Variables & Secrets (CRITICAL)
+.env
+*.env
+backend/.env
+frontend/.env
+*.env.local
+
+# SQLite Database & Runtime data
+*.db
+*.sqlite3
+backend/chat_storage.db
+
+# Frontend Dependencies & Build Output
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# System / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
