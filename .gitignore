@@ -23,11 +23,9 @@ frontend/.env
 *.sqlite3
 backend/chat_storage.db
 
-# Frontend Dependencies & Build Output
+# Frontend Dependencies
 node_modules/
 frontend/node_modules/
-dist/
-frontend/dist/
 
 # System / IDE
 .DS_Store

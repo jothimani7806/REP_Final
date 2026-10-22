@@ -32,7 +32,7 @@ import {
   FileText
 } from 'lucide-react';
 
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://127.0.0.1:8000';
+const API_BASE = import.meta.env.VITE_API_BASE || (typeof window !== 'undefined' && !window.location.origin.includes('5173') ? window.location.origin : 'http://127.0.0.1:8000');
 
 const demoProfiles = {
   high: {

@@ -129,8 +129,8 @@ def get_risk(x):
     return risk, raw_cluster
 
 
-@app.get('/')
-def root():
+@app.get('/api')
+def api_root():
     return {'message': 'Risk-Aware Insurance Prediction API is running'}
 
 
@@ -378,6 +378,15 @@ def legacy_chat(payload: dict):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
     return {'answer': ai_response, 'medical_references': refs}
+
+
+FRONTEND_DIST = ROOT / 'frontend' / 'dist'
+if FRONTEND_DIST.exists():
+    app.mount('/', StaticFiles(directory=str(FRONTEND_DIST), html=True), name='frontend')
+else:
+    @app.get('/')
+    def root():
+        return {'message': 'Risk-Aware Insurance Prediction API is running'}
 
 
 if __name__ == '__main__':
